@@ -1,0 +1,108 @@
+.page
+{
+margin: 0 auto;
+width:80vw;
+height:auto;
+    padding-top:25vh;
+    padding-bottom:25vh;
+}
+
+.title
+{
+   width:100%;
+    padding-bottom:25vh;
+}
+
+.title h1
+{
+   text-align: center;
+}
+
+.clamp
+{
+  
+    height: 40px;
+    width: 25px;
+    background: #e6e6e6;
+    position: relative;
+    top:-57px;
+    border-radius: 8px;
+    margin:0 auto;
+}
+
+.img img
+{
+    width: 100%;
+    position:relative;
+}
+
+.img {
+	    height: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.clamp2 {
+	left:-25px;
+    
+}
+.hBox
+{
+    border: 25px solid rgba(166, 166, 166,0.15);
+    height: auto;
+    width: auto;
+    margin:0 auto;
+    padding:25px;
+}
+
+.hBox p
+{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.more {
+    max-height: 50vh;
+	overflow-y:hidden;
+}
+
+.hBox:nth-child(odd)
+{
+    border-top: 0px;
+    border-right: 0px;
+    padding-right:25px;
+    border-bottom: 0px;
+      
+}
+
+.hBox:nth-child(even)
+{
+    border-left: 0px;
+    padding-left:25px;
+}
+
+.cHandle
+{
+    height:35px;
+    width:15px;
+    background:gray;
+    margin: 0 auto;
+    position: relative;
+    top:-10px;
+    border-radius: 5px;
+}
+.row:last-child p
+{
+    padding-top:25px;
+}
+
+/***************Media Queries/ Responsve Design************/
+
+@media only screen and (max-width: 600px) 
+{
+    .page 
+        {
+            width:100vw;
+        }
+}
+    
