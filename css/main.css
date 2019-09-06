@@ -1,3 +1,6 @@
+
+/******General*******/
+
 .page
 {
 margin: 0 auto;
@@ -17,6 +20,56 @@ height:auto;
 {
    text-align: center;
 }
+/********General End***/
+
+/****************Index********************/
+
+.main {
+	width:100vw;
+    padding:0vh;
+}
+.main .flex-container
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.main .flex-container > div
+{
+    height:50vh;
+    width:50vw;
+    text-align: center;
+    background:#fff;
+    outline: 1px solid gray;
+}
+.main .flex-container > div > img
+{
+    width:20vw;
+    height:20vh;
+    position:relative;
+    top:25%;
+    
+        
+}
+
+
+#logo {
+	position:absolute;
+    width:20vw;
+    height:20vh;
+    left: 50vw;
+    top:50vh;
+}
+
+#logo img
+{
+   
+    z-index:10;
+}
+
+
+/*****************Inde ENd******************/
+
+/*****About Page*****/
 
 .clamp
 {
@@ -46,6 +99,7 @@ height:auto;
 	left:-25px;
     
 }
+
 .hBox
 {
     border: 25px solid rgba(166, 166, 166,0.15);
@@ -55,15 +109,11 @@ height:auto;
     padding:25px;
 }
 
+/**Sorrounding Pump Hose**/
 .hBox p
 {
     margin-top:0px;
     margin-bottom:0px;
-}
-
-.more {
-    max-height: 50vh;
-	overflow-y:hidden;
 }
 
 .hBox:nth-child(odd)
@@ -81,6 +131,7 @@ height:auto;
     padding-left:25px;
 }
 
+
 .cHandle
 {
     height:35px;
@@ -91,10 +142,28 @@ height:auto;
     top:-10px;
     border-radius: 5px;
 }
+
+/**Pump hose End**/
+
+
+.more {
+    max-height: 50vh;
+	overflow-y:hidden;
+}
+
+
 .row:last-child p
 {
     padding-top:25px;
 }
+/*****************About End*********************/
+
+/**********************Work**********************/
+
+
+
+
+/**************************Work End******************/
 
 /***************Media Queries/ Responsve Design************/
 
