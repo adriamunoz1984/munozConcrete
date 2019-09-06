@@ -38,9 +38,34 @@ height:auto;
     height:50vh;
     width:50vw;
     text-align: center;
-    background:#fff;
-    outline: 1px solid gray;
+    background:#d9d9d9;
+    outline: 1px solid #cccccc;
 }
+
+.main .flex-container > div:first-child
+{
+  border-right:20px solid #b3b3b3;
+  border-bottom:20px solid #cccccc;
+}
+
+.main .flex-container > div:nth-child(2)
+{
+   border-left:20px solid #cccccc;
+  border-bottom:20px solid #b3b3b3;
+}
+
+.main .flex-container > div:nth-child(3)
+{
+  border-right:20px solid #cccccc;
+  border-top:20px solid #b3b3b3;
+}
+
+.main .flex-container > div:last-child
+{
+   border-left:20px solid #b3b3b3;
+  border-top:20px solid  #cccccc;
+}
+
 .main .flex-container > div > img
 {
     width:20vw;
@@ -56,14 +81,15 @@ height:auto;
 	position:absolute;
     width:20vw;
     height:20vh;
-    left: 50vw;
-    top:50vh;
+    left: 40vw;
+    top:30vh;
 }
 
 #logo img
 {
    
     z-index:10;
+/*    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);*/
 }
 
 
